@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&family=Josefin+Sans:wght@600&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@700&family=Signika+Negative:wght@300;400&family=Single+Day&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Single Day', cursive;*/
+
+* {
+    font-family: 'Signika Negative', 'Nunito Sans', 'Nunito', sans-serif;
+}
+
+header{
+    background-color: #15162c ;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    font-family: 'Josefin Sans', 'Doppio One', sans-serif;
+    font-size: 20px;
+    color:white
+}
+
+
+#navegacion {
+    background-color: #212939 !important;
+}
+
+#navbar ul li{
+    font-size: 20px;
+    color: white;
+    display:block;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+#navbar ul li:hover{
+    color: #8ba2aa
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    flex-direction: row !important;
+}
+
+p {
+    margin-top: 18px !important;
+    margin-right: 10px;
+}
+
+#precipitacion .card{
+    text-align: center;
+    background-color: #1BF08D !important; 
+}
+
+#UV .card{
+    text-align: center;
+    background-color: #EFEF64;
+}
+
+#temperatura .card{
+    text-align: center;
+    background-color: #81CCF2;
+}
+
+.col .card-title{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
