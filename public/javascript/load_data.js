@@ -227,7 +227,7 @@ let loadExternalTable = async () => {
   let responseText = await response.text()
 
   const parser = new DOMParser();
-  const xml = parser.parseFromString(responseText, "text/xml");
+  const xml = parser.parseFromString(responseText, "text/html");
 
   let elementoDOM = document.getElementById("monitoreo")
   let elementoXML =  xml.querySelector("#postcontent table")
